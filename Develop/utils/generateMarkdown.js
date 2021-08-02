@@ -31,7 +31,22 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+function renderLicenseSection(license) {
+	const text = '';
+	if (license) { 
+		text = 'https://choosealicense.com/licenses/mit/';
+	} else if (license[1]) { 
+		text = 'https://choosealicense.com/licenses/apache-2.0/';
+	} else if (license[2]) { 
+		text = 'https://choosealicense.com/licenses/gpl-3.0/';
+	} else if (license[3]) { 
+		text = 'https://choosealicense.com/licenses/mpl-2.0/';
+	}
+	
+	return text;
+}
 
 function generateMarkdown(data) {
 	console.log(data);
