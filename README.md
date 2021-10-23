@@ -15,3 +15,6 @@ https://github.com/JakeL94
 jakedlee2018@gmail.com
 ## Contributors
 Jake Lee
+
+## Walkthrough Video
+https://watch.screencastify.com/v/UZPlPuUJavf6xqwsFkdQ
